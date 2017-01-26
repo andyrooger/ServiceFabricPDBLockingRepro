@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "LockingApp", "LockingApp\LockingApp.sfproj", "{6FDDA674-89CF-458F-B8D7-FBBA31D18E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockingService", "LockingService\LockingService.csproj", "{7D981D9D-0279-4B17-BE1A-56DB61FA0613}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FDDA674-89CF-458F-B8D7-FBBA31D18E49}.Debug|x64.ActiveCfg = Debug|x64
+		{6FDDA674-89CF-458F-B8D7-FBBA31D18E49}.Debug|x64.Build.0 = Debug|x64
+		{6FDDA674-89CF-458F-B8D7-FBBA31D18E49}.Debug|x64.Deploy.0 = Debug|x64
+		{6FDDA674-89CF-458F-B8D7-FBBA31D18E49}.Release|x64.ActiveCfg = Release|x64
+		{6FDDA674-89CF-458F-B8D7-FBBA31D18E49}.Release|x64.Build.0 = Release|x64
+		{6FDDA674-89CF-458F-B8D7-FBBA31D18E49}.Release|x64.Deploy.0 = Release|x64
+		{7D981D9D-0279-4B17-BE1A-56DB61FA0613}.Debug|x64.ActiveCfg = Debug|x64
+		{7D981D9D-0279-4B17-BE1A-56DB61FA0613}.Debug|x64.Build.0 = Debug|x64
+		{7D981D9D-0279-4B17-BE1A-56DB61FA0613}.Release|x64.ActiveCfg = Release|x64
+		{7D981D9D-0279-4B17-BE1A-56DB61FA0613}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
